@@ -1,9 +1,9 @@
 #include "sort.h"
 
 /**
- * swap_ints - Swap two integers in an array.
- * @a: The first integer to swap.
- * @b: The second integer to swap.
+ * swap_ints - interchange the two integers in array.
+ * @a: first integer to interchange.
+ * @b: second integer to interchange.
  */
 void swap_ints(int *a, int *b)
 {
@@ -15,11 +15,11 @@ void swap_ints(int *a, int *b)
 }
 
 /**
- * bubble_sort - Sort an array of integers in ascending order.
- * @array: An array of integers to sort.
- * @size: The size of the array.
+ * bubble_sort - Sorting integers array in ascending way.
+ * @array:  integers array to sort.
+ * @size: array size.
  *
- * Description: Prints the array after each swap.
+ * Description: Display array in each switch.
  */
 void bubble_sort(int *array, size_t size)
 {
