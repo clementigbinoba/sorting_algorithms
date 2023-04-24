@@ -4,7 +4,7 @@
 #include <stdlib.h>
 
 /**
- * enum kind_e - Enumeration of card suits.
+ * enum kind_e - listing of card suits.
  * @SPADE: Spades suit.
  * @HEART: Hearts suit.
  * @CLUB: Clubs suit.
@@ -21,7 +21,7 @@ typedef enum kind_e
 /**
  * struct card_s - Playing card
  *
- * @value: Value of the card
+ * @value: Value of  card
  * From "Ace" to "King"
  * @kind: Kind of the card
  */
