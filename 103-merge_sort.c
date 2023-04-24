@@ -6,12 +6,12 @@ void merge_sort_recursive(int *subarr, int *buff, size_t front, size_t back);
 void merge_sort(int *array, size_t size);
 
 /**
- * merge_subarr - Sort a subarray of integers.
- * @subarr: A subarray of an array of integers to sort.
- * @buff: A buffer to store the sorted subarray.
- * @front: The front index of the array.
- * @mid: The middle index of the array.
- * @back: The back index of the array.
+ * merge_subarr - Sorting integers subarray.
+ * @subarr: sorting of a subarray of integers array.
+ * @buff: A buffer which is use to store subarray.
+ * @front: front index of array.
+ * @mid: middle index of array.
+ * @back: back index of array.
  */
 void merge_subarr(int *subarr, int *buff, size_t front, size_t mid,
 		size_t back)
@@ -38,11 +38,11 @@ void merge_subarr(int *subarr, int *buff, size_t front, size_t mid,
 }
 
 /**
- * merge_sort_recursive - Implement the merge sort algorithm through recursion.
- * @subarr: A subarray of an array of integers to sort.
- * @buff: A buffer to store the sorted result.
- * @front: The front index of the subarray.
- * @back: The back index of the subarray.
+ * merge_sort_recursive - using merge sort algorithm through recursion.
+ * @subarr: subarray array of integers sorting.
+ * @buff: buffer for storing sorting output.
+ * @front: front index of subarray.
+ * @back: back index of subarray.
  */
 void merge_sort_recursive(int *subarr, int *buff, size_t front, size_t back)
 {
@@ -58,12 +58,12 @@ void merge_sort_recursive(int *subarr, int *buff, size_t front, size_t back)
 }
 
 /**
- * merge_sort - Sort an array of integers in ascending
- *              order using the merge sort algorithm.
- * @array: An array of integers.
- * @size: The size of the array.
+ * merge_sort - Sorting integers array in ascending Manners
+ *              by merge sort algorithm.
+ * @array: integers array.
+ * @size:  size of array.
  *
- * Description: Implements the top-down merge sort algorithm.
+ * Description: using the top-down merge sort algorithm.
  */
 void merge_sort(int *array, size_t size)
 {
